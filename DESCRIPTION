@@ -1,0 +1,20 @@
+Package: verifyImpl
+Type: Package
+Title: Tools to verify the correct implementation of model simulation
+Version: 0.5-1
+Date: 2014-12-23
+Author: Jean-Michel Perraud
+Maintainer: Jean-Michel Perraud <jean-michel.perraud@csiro.au>
+Description: This is a collection of tools to help verifying the correctness
+    and/or fitness for use of model implementations. While some behaviors can
+    and must be captured in unit tests, the process of porting or refactoring
+    model code more often than not requires human judgment as to the adequate
+    model correctness, in the process of defining repeatable unit tests.
+    Currently the tools in this package are dealing with temporal simulations
+    with point time series model states.
+License: GPL (>= 3)
+URL: https://github.com/jmp75/verifyImpl
+Depends:
+    R (>= 3.0),
+    xts,
+    lubridate
